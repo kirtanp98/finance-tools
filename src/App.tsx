@@ -2,7 +2,25 @@ import type { Component } from "solid-js";
 
 const App: Component = () => {
   return (
-    <p class="text-4xl text-green-700 text-center py-20">Hello tailwind!</p>
+    <>
+      <p class="font-mono	text-2xl text-emerald-500 text-center py-10">
+        Compound Interest Calculator
+      </p>
+      <div class="container flex flex-col items-center">
+        <div class="flex flex-row">
+          <div>Initial Investment</div>
+          <input />
+        </div>
+
+        <p>s</p>
+
+        <p>s</p>
+
+        <p>s</p>
+
+        <p>s</p>
+      </div>
+    </>
   );
 };
 
